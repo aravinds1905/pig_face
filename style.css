@@ -1,0 +1,80 @@
+body{
+    margin-top: 50px;
+}
+.ears{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    /* outline: solid black; */
+    width: 300px;
+    top: 40px;
+}
+.ears .ears1{
+    width: 120px;
+    height: 200px;
+    border-radius: 100px 100px 30px 20px;
+    background-color: #fdb0c0;
+    outline: solid;
+    top: 50px;
+    left:38.6px;
+}
+.face{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #fdb0c0;
+    position: relative;
+    outline: solid;
+    
+}
+.eyes{
+
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    position: absolute;
+    top: 75px;
+    left: 18px;
+}
+
+.eyes .eye
+{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    top: 150px;
+    left: 50px;
+}
+.eye .eyeball{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.nose{
+    height: 60px;
+    width: 40%;
+    border-radius: 60px 60px 60px 60px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f80024;
+    top: 180px;
+    left:90px;
+    outline: solid;
+    overflow: hidden;
+}
+.nose .nose1{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    top: 150px;
+    left: 50px;
+}
